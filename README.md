@@ -43,4 +43,4 @@ PHP >= 7.4 (dan memenuhi [server requirement Laravel 8.x](https://laravel.com/do
 13. Selesai, Anda akan login sebagai Super Admin.
 
 
-README dibuat dengan refrensi dari [@tedihanafee](https://github.com/tedihanafee)
+README dibuat dengan refrensi dari [@tedihanafe](https://github.com/tedihanafe)
