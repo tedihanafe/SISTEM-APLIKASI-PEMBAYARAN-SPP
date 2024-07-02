@@ -27,8 +27,8 @@ Software ini dapat dipasang dalam server lokal (PC/Laptop) dan server online, de
 #### Spesifikasi minimum server
 PHP >= 7.4 (dan memenuhi [server requirement Laravel 8.x](https://laravel.com/docs/8.x/deployment#server-requirements))
 
-1. Clone Repo pada terminal : `git clone https://github.com/codegoen/spp-sekolahala.git`
-2. `$ cd spp-sekolahala`
+1. Clone Repo pada terminal : `git clone https://github.com/codegoen/sistem-aplikasi-pembayaran-spp.git`
+2. `$ cd sistem-aplikasi-pembayaran-spp`
 3. `$ composer install`
 4. `$ cp .env.example .env`
 5. `$ php artisan key:generate`
@@ -42,45 +42,5 @@ PHP >= 7.4 (dan memenuhi [server requirement Laravel 8.x](https://laravel.com/do
 12. Isi formulir installasi.
 13. Selesai, Anda akan login sebagai Super Admin.
 
-![Install Sistem Pembayaran SPP](docs/images/setup.png)
 
-## Developer dan Kontributor
-
-Project ini dikembangkan oleh [Rizkhal Lamaau](https://github.com/rizkhal) dan para [kontributor](https://github.com/codegoen/spp-sekolahal/graphs/contributors).
-
-## Ramuan
-
-Software ini dibangun dengan penuh cinta dan dengan bahan dan dukungan dari paket-paket berikut ini:
-
-##### Backend
-* [livewire](https://laravel-livewire.com/)
-* [maatwebsite/excel](https://laravel-excel.com/)
-* [nwidart/laravel-modules](https://nwidart.com/laravel-modules/v6/introduction)
-
-##### Frontend
-
-* [stisla](https://getstisla.com/), Admin template.
-* [bootstrap4](https://getbootstrap.com/)
-* [font awesome premium](https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css)
-* [font awesome free](https://www.npmjs.com/package/@fortawesome/fontawesome-free)
-* [select2](https://github.com/select2/select2)
-* [apexcharts](https://apexcharts.com/), Grafik laporan pemasukan dan pengeluaran
-* [sweetalert2](https://sweetalert2.github.io/)
-
-## Lisensi
-
-Project ini merupakan software free dan open source di bawah [lisensi MIT](LICENSE).
-
-## Cara Berkontribusi
-
-Jika ingin berkontribusi terhadap project ini, baik untuk membuat *Issue*, usulan Fitur tambahan, *Pull Request*, maupun donasi, silakan melihat [panduan kontribusi](CONTRIBUTING.md).
-
-## Screenshots
-
-#### Transaksi
-![Transaksi](docs/images/transaction.png)
-
-#### Report
-![Report](docs/images/report.png)
-
-README dibuat dengan refrensi dari [@nafiesl](https://github.com/nafiesl)
+README dibuat dengan refrensi dari [@nafiesl](https://github.com/tedihanafee)
